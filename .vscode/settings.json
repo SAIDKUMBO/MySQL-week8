@@ -2,31 +2,19 @@
     "sqltools.connections": [
         {
             "mysqlOptions": {
-                "authProtocol": "default",
+                "authProtocol": "xprotocol",
                 "enableSsl": "Disabled"
             },
             "ssh": "Disabled",
             "previewLimit": 50,
             "server": "localhost",
-            "port": 3306,
+            "port": 33060,
             "driver": "MySQL",
-            "name": "SaidDB",
-            "username": "said",
-            "database": "clinic_booking_system"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "ssh": "Disabled",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MariaDB",
-            "name": "SAID",
+            "name": "MySQL Local",
             "database": "clinic_booking_system",
-            "username": "Said"
+            "username": "root",
+            "password": "Mombasa15@",
+            "connectionTimeout": 30
         }
     ]
 }
